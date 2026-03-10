@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B282CCB-EA3F-4F15-A5C0-F1FDBA7F2076}|umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj|c:\\users\\marqu\\documents\\projetos\\prog_iv-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\classes\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B282CCB-EA3F-4F15-A5C0-F1FDBA7F2076}|umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj|solutionrelative:umfgcloud.loja.aplicacao.service\\classes\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B282CCB-EA3F-4F15-A5C0-F1FDBA7F2076}|umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj|c:\\users\\marqu\\documents\\projetos\\prog_iv-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B282CCB-EA3F-4F15-A5C0-F1FDBA7F2076}|umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj|solutionrelative:umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF082A95-9231-44C6-89C2-67C4C8A68A44}|umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj|c:\\users\\marqu\\documents\\projetos\\prog_iv-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\interface\\servicos\\iusuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF082A95-9231-44C6-89C2-67C4C8A68A44}|umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj|solutionrelative:umfgcloud.loja.dominio.service\\interface\\servicos\\iusuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF082A95-9231-44C6-89C2-67C4C8A68A44}|umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj|c:\\users\\marqu\\documents\\projetos\\prog_iv-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF082A95-9231-44C6-89C2-67C4C8A68A44}|umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj|solutionrelative:umfgcloud.loja.dominio.service\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioServico.cs",
+              "DocumentMoniker": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\Classes\\UsuarioServico.cs",
+              "RelativeDocumentMoniker": "umfgcloud.loja.aplicacao.service\\Classes\\UsuarioServico.cs",
+              "ToolTip": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\Classes\\UsuarioServico.cs",
+              "RelativeToolTip": "umfgcloud.loja.aplicacao.service\\Classes\\UsuarioServico.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:02:05.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "umfgcloud.loja.aplicacao.service",
+              "DocumentMoniker": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+              "RelativeDocumentMoniker": "umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+              "ToolTip": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+              "RelativeToolTip": "umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-10T01:01:42.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioServico.cs",
+              "DocumentMoniker": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\Interface\\Servicos\\IUsuarioServico.cs",
+              "RelativeDocumentMoniker": "umfgcloud.loja.dominio.service\\Interface\\Servicos\\IUsuarioServico.cs",
+              "ToolTip": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\Interface\\Servicos\\IUsuarioServico.cs",
+              "RelativeToolTip": "umfgcloud.loja.dominio.service\\Interface\\Servicos\\IUsuarioServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T00:57:23.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "umfgcloud.loja.dominio.service\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\marqu\\Documents\\projetos\\prog_IV-api_catalago\\umfgcloud.loja.service\\umfgcloud.loja.dominio.service\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "umfgcloud.loja.dominio.service\\DTO\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T00:31:39.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

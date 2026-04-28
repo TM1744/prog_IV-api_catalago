@@ -1,12 +1,7 @@
 ﻿using Mapster;
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using umfgcloud.loja.dominio.service.Construtores;
 using umfgcloud.loja.dominio.service.DTO;
-using umfgcloud.loja.dominio.service.Entidades;
 using umfgcloud.loja.dominio.service.Interfaces.Repositorios;
 using umfgcloud.loja.dominio.service.Interfaces.Servicos;
 
@@ -25,30 +20,28 @@ namespace umfgcloud.loja.aplicacao.service.Classes
 
         public async Task AdicionarAsync(ProdutoDTO.ProdutoRequest dto)
         {
-            //os dados inerentes ao usuário são enviados via JWT
-            var produto = new ProdutoEntity(UserId, UserEmail);
+            var produtoConstrutor = new ProdutoConstrutor(UserId, UserEmail);
 
-            //dto transita os dados inerentes a tabela
-            produto.SetDescricao(dto.Descricao);
-            produto.SetEAN(dto.EAN);
-            produto.SetValorCompra(dto.ValorCompra);
-            produto.SetValorVenda(dto.ValorVenda);
+            produtoConstrutor.BuildDescricao(dto.Descricao)
+                    .BuildEAN(dto.EAN)
+                    .BuildValorCompra(dto.ValorCompra)
+                    .BuildValorVenda(dto.ValorVenda);
 
-            await _repositorio.AdicionarAsync(produto);
+            await _repositorio.AdicionarAsync(produtoConstrutor.GetProduto());
         }
 
         public async Task AtualizarAsync(ProdutoDTO.AbstractProdutoWithIdDTO dto)
         {
-            var produto = await _repositorio.ObterPorIdAsync(dto.Id);
+            var produtoConstrutor = new ProdutoConstrutor(await _repositorio.ObterPorIdAsync(dto.Id));
 
-            produto.SetDescricao(dto.Descricao);
-            produto.SetEAN(dto.EAN);
-            produto.SetValorCompra(dto.ValorCompra);
-            produto.SetValorVenda(dto.ValorVenda);
+            produtoConstrutor.BuildDescricao(dto.Descricao)
+                            .BuildEAN(dto.EAN)
+                            .BuildValorCompra(dto.ValorCompra)
+                            .BuildValorVenda(dto.ValorVenda);
 
-            produto.Update(UserId, UserEmail);
+            produtoConstrutor.GetProduto().Update(UserId, UserEmail);
 
-            await _repositorio.AtualizarAsync(produto);
+            await _repositorio.AtualizarAsync(produtoConstrutor.GetProduto());
         }
 
         //so consegue fazer a conversa, de atributos publicos na classe destino e ICollection/List

@@ -19,13 +19,13 @@ namespace umfgcloud.loja.dominio.service.Entidades
 
         protected AbstractEntity() { }
 
-        protected AbstractEntity(string userId, string userEmail) 
-        {
-            CreatedByUserId = userId ?? throw new ArgumentNullException(nameof(userId));
-            CreatedByUserEmail = userEmail ?? throw new ArgumentNullException(nameof(userEmail));
-            UpdatedByUserId = userId ?? throw new ArgumentNullException(nameof(userId));
-            UpdatedByUserEmail = userEmail ?? throw new ArgumentNullException(nameof(userEmail));
-        }
+        //protected AbstractEntity(string userId, string userEmail) 
+        //{
+        //    CreatedByUserId = userId ?? throw new ArgumentNullException(nameof(userId));
+        //    CreatedByUserEmail = userEmail ?? throw new ArgumentNullException(nameof(userEmail));
+        //    UpdatedByUserId = userId ?? throw new ArgumentNullException(nameof(userId));
+        //    UpdatedByUserEmail = userEmail ?? throw new ArgumentNullException(nameof(userEmail));
+        //}
 
         //permite ser feita a sobrecarga de metodo (override), apenas virtual e abstract tem essa funcao
         public virtual void Activate() => IsActive = true;

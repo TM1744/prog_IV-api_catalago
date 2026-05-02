@@ -1,4 +1,3 @@
-
 using umfgcloud.loja.webapi.Extensions;
 
 namespace umfgcloud.loja.webapi
@@ -20,7 +19,7 @@ namespace umfgcloud.loja.webapi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwagger();
             builder.Services.AddDataContext(builder.Configuration);
-            builder.Services.AddServicos(); //isto é exatamente igual a isto: ServicosExtensions.AddServicos(builder.Services);
+            builder.Services.AddServicos(); //isto ï¿½ exatamente igual a isto: ServicosExtensions.AddServicos(builder.Services);
 
             var app = builder.Build();
 

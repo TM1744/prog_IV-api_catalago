@@ -30,7 +30,7 @@ namespace umfgcloud.loja.aplicacao.service.Classes
             await _repositorio.AdicionarAsync(produtoConstrutor.GetProduto());
         }
 
-        public async Task AtualizarAsync(ProdutoDTO.AbstractProdutoWithIdDTO dto)
+        public async Task AtualizarAsync(ProdutoDTO.ProdutoRequestWithId dto)
         {
             var produtoConstrutor = new ProdutoConstrutor(await _repositorio.ObterPorIdAsync(dto.Id));
 

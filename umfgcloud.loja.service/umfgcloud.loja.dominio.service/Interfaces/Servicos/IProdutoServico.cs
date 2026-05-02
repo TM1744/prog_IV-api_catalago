@@ -13,6 +13,6 @@ namespace umfgcloud.loja.dominio.service.Interfaces.Servicos
         Task<ProdutoDTO.ProdutoResponse> ObterPorIdAsync(Guid id);
         Task AdicionarAsync(ProdutoDTO.ProdutoRequest dto);
         Task RemoverAsync(Guid id);
-        Task AtualizarAsync(ProdutoDTO.AbstractProdutoWithIdDTO dto);
+        Task AtualizarAsync(ProdutoDTO.ProdutoRequestWithId dto);
     }
 }
